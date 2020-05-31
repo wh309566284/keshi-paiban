@@ -44,3 +44,5 @@ permalink : /:title/
 #     Socials      # 
 # ---------------- # 
 duoshuo_username: HX4Y
+
+theme: jekyll-theme-cayman
