@@ -1,0 +1,46 @@
+# Site settings
+title: 华西附四院-消化中心
+name: HX4Y
+desc: 记录...
+email: 309566284@qq.com
+baseurl: ""
+url: "http://http://wh.zhaokeyong.cn"
+
+author:
+  name     : '华西附四院-消化中心'
+  email    : 309566284@qq.com
+  url      : http://wh.zhaokeyong.cn
+
+github: https://github.com/wh309566284/keshi-paiban
+disqus_shortname: "HX4Y"
+google_analytics: UA-52446115-1
+
+gems: [jekyll-paginate]
+
+paginate: 20
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+# ---------------- # 
+#      Jekyll      # 
+# ---------------- # 
+markdown: redcarpet
+redcarpet: 
+    extensions: 
+        - no_intra_emphasis
+        - fenced_code_blocks
+        - autolink
+        - tables
+        - with_toc_data
+        - strikethrough
+permalink : /:title/
+
+# ---------------- # 
+#     Socials      # 
+# ---------------- # 
+duoshuo_username: HX4Y
