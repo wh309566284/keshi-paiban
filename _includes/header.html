@@ -15,13 +15,12 @@
           <span></span>
         </a>
 
-        <ul class="nav">
+        <ul class="nav" style="display: none;">
           {% for page in site.pages %}
             {% if page.title and page.title != 'Home' %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
-          <li><a href="{{ site.gitee }}" target="_blank">Gitee</a></li>
         </ul>
       </nav>
     </div>
