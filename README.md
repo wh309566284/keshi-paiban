@@ -1,2 +1,2 @@
-# https://github.com/wh309566284/keshi-paiban
+# https://wh309566284.github.io/keshi-paiban
 Something Something~~
