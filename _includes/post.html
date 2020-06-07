@@ -6,7 +6,7 @@
       <span class="post-author">by {{ site.author.name }}</span>
     </span>
   </header>
-  <div class="post-content">
+  <div class="post-content" style="display: none;">
     {% if post.description %}
       {{ post.description | strip_html | truncatewords: 50 }} 
     {% else %}
