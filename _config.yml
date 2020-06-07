@@ -1,5 +1,5 @@
 # Site settings
-title: 华西附四院-消化中心
+title: 消化内镜中心排班表
 name: HX4Y
 desc: 记录...
 email: 309566284@qq.com
@@ -7,7 +7,7 @@ baseurl: "/keshi-paiban"
 url: "https://wh309566284.github.io"
 
 author:
-  name     : '华西附四院-消化中心'
+  name     : '消化内镜中心排班表'
   email    : 309566284@qq.com
   url      : http://wh.zhaokeyong.cn
 
